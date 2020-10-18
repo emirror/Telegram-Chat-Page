@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+:root {
+    --blue: #53b1f0;
+}
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:hover, a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
